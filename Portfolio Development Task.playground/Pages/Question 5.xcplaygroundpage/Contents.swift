@@ -16,6 +16,12 @@ let hasGreenAndWhiteBuildings = true
 
 // Answer question 5 below
 
+// looking to see if all statments are true
+if hasWaterfrontOnLake && hasBoysAndGirlsAttending && hasGreenAndWhiteBuildings {
+    print("Must be Lakefield")
+} else {
+    print("Humm, need more data to be sure")
+}
 
 /*:
  ## Now share your understanding
