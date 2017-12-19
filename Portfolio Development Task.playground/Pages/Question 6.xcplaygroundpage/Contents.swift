@@ -19,6 +19,23 @@
  
  */
 // Answer question 6 below
+let targetDistance : Double = 100
+var currentDistanceRun : Double = 37
+// targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) is the percent of the distance run
+
+if  targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) < 0.15 {
+    print("Great start, keep it up")
+} else if targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) > 0.45 && targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) < 0.50 {
+    print("You'er almost halfway")
+} else if targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) == 0.5 {
+    print("Halfway there")
+} else if targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) > 0.88 && targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) < 1 {
+    print("Nearly done!")
+} else if targetDistance/100 - (targetDistance/100 - currentDistanceRun/100) >= 1 {
+    print("GREAT JOB! You're finished the run")
+} else {
+    print("keep going!!")
+}
 
 
 /*:
