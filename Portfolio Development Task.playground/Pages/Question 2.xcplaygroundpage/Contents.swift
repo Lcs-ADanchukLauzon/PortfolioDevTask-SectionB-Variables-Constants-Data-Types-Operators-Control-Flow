@@ -21,6 +21,18 @@
  
  */
 // Answer question 2 below
+let dateOfMeasurement = "December 19th"
+print("The date will not change during our measurement")
+
+let timeOfMeasurement = "9:12am"
+print("\nThe time will not change the instant of the measurment")
+
+let currentHeightOfSnowInCentimeters = 15
+print("\nThe snow height is calculated in an instant \n so there is no need for it to change")
+
+var snowfallOverYearSoFarInCentimeters = 0
+snowfallOverYearSoFarInCentimeters += currentHeightOfSnowInCentimeters
+print("\nThe snowfall over the year will alway be increasing during\n the winter therefore it needs to be a variable to change.")
 
 /*:
  ## Now share your understanding
