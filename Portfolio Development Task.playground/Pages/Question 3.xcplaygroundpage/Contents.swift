@@ -21,6 +21,21 @@
  
  */
 // Answer question 3 below
+let hairDonationAmout : Double = 55.75
+print("\nMoney has dicimals for cents therefore a Double is needed")
+
+let runTrainingDonationAmount : Double = 15.35
+print("\nMoney has dicimals for cents therefore a Double is needed")
+
+var headShavedCount : Int = 12
+print("\nThe amount of people will always be a whole number because there will\nnever be 0.5 people arriving")
+
+var runTrainingCount : Int = 73
+print("\nThe amount of people will always be a whole number because there will\nnever be 0.5 people arriving")
+
+var totalDonationAmount = hairDonationAmout * Double(headShavedCount) + runTrainingDonationAmount * Double(runTrainingCount)
+print("\nSince the two data types a incompatable we must convert Ints to Doubles")
+
 
 /*:
  ## Now share your understanding
