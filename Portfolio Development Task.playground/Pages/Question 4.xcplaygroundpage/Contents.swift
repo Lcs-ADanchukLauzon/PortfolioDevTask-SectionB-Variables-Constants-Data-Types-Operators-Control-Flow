@@ -30,6 +30,21 @@
  
  */
 // Answer question 4 below
+var totalMoneyIHaveEarned : Double = 0.0
+
+// loose 10 cents
+totalMoneyIHaveEarned -= 0.10
+
+// gain 6.75%
+totalMoneyIHaveEarned += 6.75
+
+// split earnings in half
+totalMoneyIHaveEarned /= 2
+
+// triple earnings
+totalMoneyIHaveEarned *= 3
+
+
 
 /*:
  ## Now share your understanding
